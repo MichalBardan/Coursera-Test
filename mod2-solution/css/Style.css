@@ -1,0 +1,106 @@
+
+/********* Base Styles *********/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Verdana, sans-serif;
+	color: #000000;  
+	font-weight: bold;
+	font-size:  100%;
+	margin: 10px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 175%;
+	margin-bottom: 20px;
+}
+
+h3 {
+	border-bottom: 1px solid black;
+ 	border-left: 1px solid black;
+ 	text-align: center;	
+ 	font-size: 125%;
+ 	padding: 7px;
+ 	width: 120px;
+ 	position: absolute;
+ 	top: 0;
+ 	right: 0;
+}
+
+section {
+	width: 33.33%;
+	float: left;
+	margin-top: 20px;
+	display: table-cell;
+}
+
+p {
+	padding: 50px 20px 5px 15px;
+}
+
+.container {
+	width: 100%;
+	display: table;
+
+}
+
+.box {
+ 	border: 1px solid black;
+ 	text-align: left;
+ 	color: Black;
+ 	background-color: #d9d9d9;
+ 	margin-right: 10px;
+ 	margin-left: 10px;
+ 	align-self: normal;
+ 	position: relative;
+ 	height: 100%;
+}
+
+
+#title1 {
+	background-color: #BE8FF9;
+}
+
+#title2 {
+	background-color: #f95a5c;
+	color: white;
+}
+
+#title3 {
+	background-color: #FAE16A;
+}
+
+
+
+/********* Medium device - Tablet *********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+
+/********* Small device - Phone *********/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
+
+
+
