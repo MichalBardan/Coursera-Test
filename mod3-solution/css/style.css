@@ -39,6 +39,9 @@ span {
 	text-align: center;
 }
 
+.nav-item:hover {
+	background-color: #98E6FC;
+}
 
 /*## Desktop MD ##/*
 
